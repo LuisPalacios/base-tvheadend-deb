@@ -6,7 +6,8 @@ Este contenedor solo sirve para crear un fichero temporal del tipo:
 
 El objetivo es crear ese fichero para que pueda ser utilizado por el proyecto también disponible en GitHub llamado
 
-* [luispa/base-tvheadend](https://registry.hub.docker.com/u/luispa/base-tvheadend/). 
+* [GitHub servicio-tvheadend](https://github.com/LuisPalacios/servicio-tvheadend)
+. 
 
 Durante el build del contenedor se compila Tvheadend desde la [versión inestable disponible en GitHub: tvheadend/tvheadend](https://github.com/tvheadend/tvheadend). El .deb queda dentro del contenedor y al ejecutarlo se copiará automáticamente al directorio en el que te encuentres. 
 
@@ -35,4 +36,5 @@ Una vez que tienes la imagen, ejecuta el contenedor:
 
 El último paso consiste en copiar el .deb al proyecto base-tvheadend
 
-* [luispa/base-tvheadend](https://registry.hub.docker.com/u/luispa/base-tvheadend/). 
+* [GitHub servicio-tvheadend](https://github.com/LuisPalacios/servicio-tvheadend)
+. 
