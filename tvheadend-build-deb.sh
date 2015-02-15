@@ -1,7 +1,8 @@
 #!/bin/bash
 #
+# By LuisPa Feb'15
 
-# Script to build tvheadend_3.9.XXXX~yyyyyyyy~precise_amd64.deb so it can be copied
-# and used by the luispa/base-tvheadend container.
+# Script que extrae el tvheadend_3.9.XXXX~yyyyyyyy~precise_amd64.deb para poder
+# ser usado en el proyecto luispa/base-tvheadend
 #
 docker run -t -i -v $(pwd):/output luispa/base-tvheadend-deb /bin/bash
